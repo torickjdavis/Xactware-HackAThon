@@ -119,4 +119,5 @@ section img {
 }
 .roster {
     text-decoration: none;
+    list-style-type: none;
 }
