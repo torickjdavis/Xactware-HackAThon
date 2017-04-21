@@ -117,7 +117,9 @@ section img {
     text-align: center;
     align-items: center;
 }
-.roster {
-    text-decoration: none;
+.roster1 {
+    list-style-type: none;
+}
+.roster2 {
     list-style-type: none;
 }
