@@ -122,4 +122,5 @@ section img {
 }
 .roster2 {
     list-style:none;
+    align-self:flex-start;
 }
