@@ -20,7 +20,7 @@ aside {
     font-size:1.5em;
 }
 nav ul {
-    list-style-type:none;
+    list-style:none;
     padding:0;
     text-align:center;
 }
@@ -96,7 +96,7 @@ section img {
 }
 .resources ul {
     color:white;
-    list-style-type: none;
+    list-style: none;
     padding:0;
     display:flex;
     width:100%;
