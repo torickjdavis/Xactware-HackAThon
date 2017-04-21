@@ -5,10 +5,12 @@ $(document).ready(function() {
         open: function() {
             $("main").css({"margin-right":"25%"});
             $("aside").css({"width":"25%"});
+            console.log("Nav:Open");
         },
         close: function() {
             $("main").css({"margin-right":"0"});
             $("aside").css({"width":"0"});
+            console.log("Nav:Close");
         }
     }
     
