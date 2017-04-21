@@ -115,7 +115,8 @@ section img {
 }
 .rosterh1 {
     text-align: center;
+    align-items: center;
 }
 .roster {
-    
+    text-decoration: none;
 }
