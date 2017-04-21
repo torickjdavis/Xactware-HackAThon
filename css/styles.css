@@ -114,12 +114,11 @@ section img {
     font-size:1.2em;
 }
 .rosterh1 {
-    text-align: center;
-    align-items: center;
+    text-align:center;
 }
 .roster1 {
-    list-style-type: none;
+    list-style:none;
 }
 .roster2 {
-    list-style-type: none;
+    list-style:none;
 }
