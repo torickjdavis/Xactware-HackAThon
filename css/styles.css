@@ -124,3 +124,8 @@ section img {
     list-style:none;
     align-self:flex-start;
 }
+@media(max-width:768px) {
+    p {
+        font-size:1.5em;
+    }
+}
