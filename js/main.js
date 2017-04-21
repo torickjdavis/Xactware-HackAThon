@@ -27,4 +27,5 @@ $(document).ready(function() {
         $(this).before('<i class="fa fa-external-link" aria-hidden="true"></i>');
         $(this).attr('target','_blank');
     });
+    $('footer').html('&copy; 2017 | AF "Herald" Team');
 });
