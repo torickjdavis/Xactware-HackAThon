@@ -7,16 +7,61 @@ h1, h2, h3, h4, h5, h6 {
 }
 aside {
     height: 100%;
-    width: 25%;
+    width: 0;
     position: fixed;
     top: 0;
     right: 0;
-    background-color: #111;
+    background-color: rgba(0,0,0,0.5);
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
 }
 main {
-    margin-right:25%;
+    margin-right:0%;
     height:100%;
+    transition: 0.5s;
+}
+footer {
+    text-align:center;
+    color:rgba(0,0,0,0.5);
+    transition: 0.2s;
+}
+footer:hover {
+    color:rgba(0,0,0,0.8);
+}
+#navOpen, #navClose {
+    text-align: right;
+    padding: 1em 1em 0.5em 0;
+}
+#navClose {
+    padding-top:0;
+}
+.parallax {
+    font-family:'Roboto Slab';
+    font-weight:700;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-shadow: 1px 2px 4px black; 
+    background-image: url('../img/mountainLowRes.jpg');
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index:-1;
+}
+.parallax {
+    height:5em;
+}
+.banner {
+    height:10em;
+}
+section {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+section img {
+    margin:1em;
 }

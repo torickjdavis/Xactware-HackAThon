@@ -5,6 +5,7 @@ $(document).ready(function() {
         open: function() {
             $("main").css({"margin-right":"25%"});
             $("aside").css({"width":"25%"});
+            $("header")
             console.log("Nav:Open");
         },
         close: function() {
