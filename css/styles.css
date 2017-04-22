@@ -131,8 +131,8 @@ section img {
     }
 }
 div.gallery {
-    margin: 5px;
-    width:50%;
+    margin: 10px;
+    width:90%;
     max-width: 1000px;
     margin-left:auto;
     margin-right:auto;
@@ -142,4 +142,5 @@ div.gallery img {
     width: 48%;
     height: auto;
     display: inline-block;
+    margin: 3px;
 }
