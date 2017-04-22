@@ -10,7 +10,8 @@ $(document).ready(function() {
     checkMobile();
     
     $('.fa-chevron-down').click(function(){//auto scroll with chevron
-        $('body').animate({scrollTop: splashHeight}, 2000);//.scrollTop(splashHeight);
+        var height = splashHeight / 4 * 3;
+        $('body').animate({scrollTop: height}, 2000);//.scrollTop(splashHeight);
     });
     
     $(window).scroll(function(){
