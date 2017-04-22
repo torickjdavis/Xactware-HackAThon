@@ -130,3 +130,14 @@ section img {
         font-size:1.5em;
     }
 }
+div.gallery {
+    margin: 5px;
+    width:100%;
+    max-width: 500px;
+}
+
+div.gallery img {
+    width: 48%;
+    height: auto;
+    display: inline-block;
+}
