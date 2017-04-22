@@ -132,8 +132,8 @@ section img {
 }
 div.gallery {
     margin: 5px;
-    width:100%;
-    max-width: 500px;
+    width:50%;
+    max-width: 1000px;
 }
 
 div.gallery img {
