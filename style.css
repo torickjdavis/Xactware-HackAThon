@@ -90,6 +90,43 @@ nav li {
     position:fixed;
     top:0;
     width:100%;
-    height:5em;
+    height:4em;
     padding-left:2em;
 }
+
+/*Gallery by Gideon Roberts*/
+
+div.gallery {
+    margin: 10px;
+    width:90%;
+    max-width: 1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.gallery:hover {
+    animation: swell 1s ease 0s 1 ease;
+}
+
+
+div.gallery img {
+    width: 48%;
+    height: auto;
+    display: inline-block;
+    margin: 3px;
+}
+div.gallery img:hover {
+    animation: swell 1s linear 0s 1 ease;
+}
+@keyframes swell {
+    from {
+        width:90%; 
+        height:auto;
+        
+    }
+    to {
+        width:100%; 
+        height:auto;
+        
+    }
+}
+/*END Gallery*/

@@ -5,7 +5,7 @@ $(document).ready(function() {
             $(".well").html(result);}});
     
     $('.fa-chevron-down').click(function(){//auto scroll with chevron
-        $('body').animate({scrollTop: splashHeight}, 2000)//.scrollTop(splashHeight);
+        $('body').animate({scrollTop: splashHeight}, 2000);//.scrollTop(splashHeight);
     });
     
     $(window).scroll(function(){
