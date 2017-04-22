@@ -2,7 +2,10 @@
 $(document).ready(function() {
     var splashHeight = $('.splash').outerHeight();
     $.ajax({url: "./pages/home.html", success: function(result){
-            $(".well").html(result);}});
+        checkExternal();    
+        $(".well").html(result);
+        
+    }});
     
     $('.fa-chevron-down').click(function(){//auto scroll with chevron
         $('body').animate({scrollTop: splashHeight}, 2000);//.scrollTop(splashHeight);
@@ -28,4 +31,10 @@ $(document).ready(function() {
         }
         });
     });
+    function checkExternal() {
+        $('.external').each(function() {
+            //$(this).before('<i class="fa fa-external-link" aria-hidden="true"></i>');
+            $(this).attr('target','_blank');
+        });
+    }
 });
