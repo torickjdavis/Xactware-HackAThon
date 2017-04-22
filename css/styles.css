@@ -71,7 +71,7 @@ h2 {
     align-items:center;
     color:white;
     text-shadow: 1px 2px 4px black; 
-    background-image: url('../img/mountainLowRes.jpg');
+    background-image: url('/external experiment/img/mountainLowRes.jpg');
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -119,6 +119,7 @@ section img {
 }
 .roster1 {
     list-style:none;
+    align-self:flex-start;
 }
 .roster2 {
     list-style:none;
@@ -127,5 +128,38 @@ section img {
 @media(max-width:768px) {
     p {
         font-size:1.5em;
+    }
+}
+div.gallery {
+    margin: 10px;
+    width:90%;
+    max-width: 1000px;
+    margin-left:auto;
+    margin-right:auto;
+}
+.gallery:hover {
+    animation: swell 1s ease 0s 1 ease;
+}
+
+
+div.gallery img {
+    width: 48%;
+    height: auto;
+    display: inline-block;
+    margin: 3px;
+}
+div.gallery img:hover {
+    animation: swell 1s linear 0s 1 ease;
+}
+@keyframes swell {
+    from {
+        width:90%; 
+        height:auto;
+        
+    }
+    to {
+        width:100%; 
+        height:auto;
+        
     }
 }

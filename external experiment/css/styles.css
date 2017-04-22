@@ -1,0 +1,175 @@
+body {
+    font - family: 'Roboto', sans - serif;
+    margin: 0;
+    background: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font - family: 'Roboto Slab', serif;
+}
+
+aside {
+    height: 100 %;
+    width: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
+    overflow - x: hidden;
+    transition: 0.5 s;
+    padding - top: 5e m;
+    font - size: 1.5e m;
+}
+
+nav ul {
+    list - style: none;
+    padding: 0;
+    text - align: center;
+}
+
+nav a {
+    color: white;
+    text - decoration: none;
+    transition: 0.2 s;
+}
+
+nav a: hover {
+    color: rgb(150, 150, 150);
+}
+
+main {
+    margin - top: 5e m;
+    margin - right: 0 %;
+    height: 100 %;
+    transition: 0.5 s;
+}
+
+footer {
+    text - align: center;
+    color: rgba(0, 0, 0, 0.5);
+    transition: 0.2 s;
+}
+
+footer: hover {
+    color: rgba(0, 0, 0, 0.8);
+}
+
+header {
+    color: white;
+    background: #dd1818;
+    align - items: center;
+    display: flex;
+    position: fixed;
+    width: 100 %;
+    top: 0;
+}
+
+h2 {
+    padding - left: 1e m;
+}
+
+# navToggler {
+    position: fixed;
+    right: 1e m;
+    cursor: pointer;
+}
+
+.parallax {
+    font - family: 'Roboto Slab';
+    font - weight: 700;
+    display: flex;
+    justify - content: center;
+    align - items: center;
+    color: white;
+    text - shadow: 1 px 2 px 4 px black;
+    background - image: url('../img/mountainLowRes.jpg');
+    /* Create the parallax scrolling effect */
+    background - attachment: fixed;
+    background - position: center;
+    background - repeat: no - repeat;
+    background - size: cover;
+    z - index: -1;
+    height: 5e m;
+}
+
+.pixel {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    background - image: url('img/mountainLowRes.jpg');
+    /* Create the parallax scrolling effect */
+    background - attachment: fixed;
+    background - position: center;
+    background - repeat: no - repeat;
+    background - size: cover;
+    z - index: -1;
+    height: 5e m;
+}
+
+section {
+    display: flex;
+    justify - content: center;
+    align - items: center;
+}
+
+section img {
+    margin: 1e m;
+}
+
+.resources {
+    display: block;
+}
+
+.resources h3 {
+    text - align: center;
+}
+
+.resources ul {
+    color: white;
+    list - style: none;
+    padding: 0;
+    display: flex;
+    width: 100 %;
+}
+
+.resources li {
+    display: inline - block;
+    margin: auto;
+    background: #dd1818;
+    border - radius: 0.5e m;
+    padding: 0.2e m;
+}
+
+.resources a {
+    color: white;
+    text - decoration: none;
+    background: #dd1818;
+    font - size: 1.2e m;
+}
+
+.rosterh1 {
+    text - align: center;
+}
+
+.roster1 {
+    list - style: none;
+    align - self: flex - start;
+}
+
+.roster2 {
+    list - style: none;
+    align - self: flex - start;
+}
+
+@media(max - width: 768 px) {
+    p {
+        font - size: 1.5e m;
+    }
+}
