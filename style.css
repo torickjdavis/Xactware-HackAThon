@@ -120,6 +120,9 @@ section ul {
     border-radius:0.5em;
 
 }
+.well {
+    background: rgba(245,245,245,0.85);
+}
 /*Gallery by Gideon Roberts*/
 
 div.gallery {
