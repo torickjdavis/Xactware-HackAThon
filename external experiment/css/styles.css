@@ -98,20 +98,7 @@ h2 {
     height: 5e m;
 }
 
-.pixel {
-    position: absolute;
-    width: 15px;
-    height: 15px;
-    border-radius: 15px;
-    background - image: url('img/mountainLowRes.jpg');
-    /* Create the parallax scrolling effect */
-    background - attachment: fixed;
-    background - position: center;
-    background - repeat: no - repeat;
-    background - size: cover;
-    z - index: -1;
-    height: 5e m;
-}
+
 
 section {
     display: flex;
@@ -153,7 +140,19 @@ section img {
     background: #dd1818;
     font - size: 1.2e m;
 }
-
+.mobile body{
+    overflow: hidden;
+}
+.mobile #wrapper{
+    position:absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.mobile #scroller{
+    height: 5em;
+}
 .rosterh1 {
     text - align: center;
 }
