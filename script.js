@@ -42,7 +42,8 @@ $(document).ready(function() {
     }
     
     function checkMobile() {
-        if(window.innerWidth <= 800) {
+        
+        if($.browser.device = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()));) {
             $('.smallHeader').css({'background':'rgba(245,245,245,0.95'});
         }
     }
