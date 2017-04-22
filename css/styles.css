@@ -119,6 +119,7 @@ section img {
 }
 .roster1 {
     list-style:none;
+    align-self:flex-start;
 }
 .roster2 {
     list-style:none;
