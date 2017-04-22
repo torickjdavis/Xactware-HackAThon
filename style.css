@@ -162,3 +162,17 @@ div.gallery img {
     list-style-type: none;
     color: rgb(211,34,45);
 }
+
+.stats{
+    background-color: white;
+    font-size: 16px;
+    text-decoration: bold;
+    padding: 20px;
+    display:none;
+    position:relative;
+    transition:0.5s;
+}
+span:hover + div {
+    display:block;
+    position:absolute;
+    }
