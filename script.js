@@ -7,6 +7,8 @@ $(document).ready(function() {
         
     }});
     
+    checkMobile();
+    
     $('.fa-chevron-down').click(function(){//auto scroll with chevron
         $('body').animate({scrollTop: splashHeight}, 2000);//.scrollTop(splashHeight);
     });
@@ -31,10 +33,17 @@ $(document).ready(function() {
         }
         });
     });
+    
     function checkExternal() {
         $('.external').each(function() {
             //$(this).before('<i class="fa fa-external-link" aria-hidden="true"></i>');
             $(this).attr('target','_blank');
         });
+    }
+    
+    function checkMobile() {
+        if(window.innerWidth <= 800) {
+            $('.smallHeader').css({'background':'rgba(245,245,245,0.95'});
+        }
     }
 });
